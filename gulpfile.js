@@ -12,7 +12,7 @@ var gutil = require('gulp-util');
 
 gulp.task('build', [ 'web', 'cordova' ]);
 gulp.task('web', dist([ './platform/web' ], 'web'));
-gulp.task('cordova', dist([ './platform/cordova' ], 'cordova'));
+//gulp.task('cordova', dist([ './platform/cordova' ], 'cordova'));
 
 function dist(files, file, nomin) {
   return function() {
